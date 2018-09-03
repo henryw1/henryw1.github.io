@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Henry Wainaina</title>
+		<title>{{ page.title }}</title>
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
 	</head>
 	<body>
@@ -14,10 +14,7 @@
     		</ul>
 		</nav>
 		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, I'm Henry Wainaina</h1>
-				<p>random context goes here  <em>more random text </em> some more random text <a href="/about">Read more about my life...</a></p>
-    		</div><!-- /.blurb -->
+    		{{ content }}
 		</div><!-- /.container -->
 		<footer>
     		<ul>
