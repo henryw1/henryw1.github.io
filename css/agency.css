@@ -301,6 +301,15 @@ header.masthead .intro-text .intro-heading {
   z-index: 2;
 }
 
+#portfolio{
+  background:
+}
+.project{
+  background-color: #2b445d!important;
+}
+.bg-light{
+    background-color: #2b445d!important;
+}
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
     margin: 0 0 30px;
@@ -593,7 +602,7 @@ header.masthead .intro-text .intro-heading {
 .team-member p {
   margin-top: 0;
 }
-
+/*
 section#contact {
   background-color: #212529;
   background-image: url("../img/map-image.png");
@@ -650,11 +659,59 @@ section#contact :-ms-input-placeholder {
   font-weight: 700;
   color: #ced4da;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+} */
+
+
+.contact-section {
+  padding: 5rem 0 0;
+  background-color: #161616!important;
+}
+
+.contact-section .card {
+  border: 0;
+  border-bottom: 0.25rem solid #64a19d;
+}
+
+.contact-section .card h4 {
+  font-size: 0.8rem;
+  font-family: 'Varela Round';
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+}
+
+.contact-section .card hr {
+  border-color: #64a19d;
+  border-width: 0.25rem;
+  width: 3rem;
+}
+
+.contact-section .social {
+  margin-top: 5rem;
+}
+
+.contact-section .social a {
+  text-align: center;
+  height: 3rem;
+  width: 3rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 100%;
+  line-height: 3rem;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.contact-section .social a:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.contact-section .social a:active {
+  color: #fff;
 }
 
 footer {
   padding: 25px 0;
   text-align: center;
+  background-color: #161616!important;
+  font-size: 22px;
 }
 
 footer span.copyright {
